@@ -1,0 +1,215 @@
+/** {
+  box-sizing: border-box;
+}*/
+
+/***********************************************/
+@media (min-width: 981px) {
+  .nav-bar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background-color: white;
+  }
+  .top-bar {
+    position: absolute;
+    top: 0;
+    left: 66%;
+    width: 33%;
+    height: 100%;
+    padding-left: 50px;
+    background-color: #EBEBEB;
+  }
+  .top-bar input {
+    height: 30px;
+    width: 180px;
+    margin-top: 25px;
+  }
+
+  #brown-bar {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 66%;
+    height: 10px;
+    background-color: #906329;
+  }
+
+  #orange-bar {
+    position: absolute;
+    top: 75px;
+    /*left: 70%;*/
+    width: 100%;
+    height: 10px;
+    background-color: #EEBB74;
+    float: right;
+  }
+
+  .left-top {
+    float: left;
+    padding: 15px;
+  }
+
+  #search {
+    float: right;
+    background-color: black;
+    padding:10px;
+    margin: 20px;
+  }
+
+  .dark-gray {
+    position: absolute;
+    top: 85px;
+    left: 0;
+    width: 66%;
+    height: 100%;
+    background-color: white;
+    border: 20px solid #3C3C3C;
+  }
+
+  .blog-text {
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .blog-text img {
+    float: right;
+    margin: 25px;
+    display: inline-block;
+    vertical-align: top;
+    width: 70px;
+    height: 70px;
+  }
+
+  #hired-img {
+    text-align: left;
+    padding-top: 50px;
+
+  }
+
+  button {
+    text-align: center;
+    width: 250px;
+  }
+
+  .white-box {
+    position: absolute;
+    top: 275px;
+    left: 25px;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+
+  }
+  .white-box .text {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+/***********************************************/
+@media (max-width: 980px) {
+
+  * {
+    font-size: 1.2em;
+  }
+
+  .nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    background-color: white;
+  }
+
+  .top-bar {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    padding-left: 50px;
+    background-color: #EBEBEB;
+  }
+
+  .top-bar input {
+    height: 20px;
+    width: 100px;
+    margin-top: 1px;
+    float: none;
+  }
+
+  #brown-bar {
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 66%;
+    height: 10px;
+    background-color: #906329;
+  }
+
+  #orange-bar {
+   display: none;
+  }
+
+  .left-top {
+    float: none;
+    padding: 15px;
+  }
+
+  #search {
+    float: none;
+/*    background-color: black;*/
+    padding: 1px;
+    margin: 1px;
+    width: 25px;
+  }
+
+  .dark-gray {
+    position: absolute;
+    top: 5%;
+    left: 0;
+    width: 100%;
+    /*height: 60%;*/
+    background-color: white;
+    border: 15px solid #3C3C3C;
+  }
+
+  .blog-text {
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .blog-text img {
+    display: none;
+  }
+
+  #hired-img {
+    display: none;
+  }
+
+  button {
+    text-align: center;
+    width: 150px;
+  }
+
+  .white-box {
+    /*position: relative;*/
+ /*   top: 275px;
+    left: 25px;*/
+    width: 90%;
+    /*height: 300px;*/
+    background-color: white;
+  }
+
+  .white-box .text {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
